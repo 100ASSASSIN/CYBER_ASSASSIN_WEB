@@ -1,3 +1,32 @@
-h1{
-    color: green;
+/* Import the Rubik font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/* Apply styles to the h1 elements */
+
+@media only screen and (max-width: 600px) {
+    
+        #nav {
+            font-family: "Rubik", sans-serif;
+            font-weight: 200; /* Normal weight */
+            font-style: normal; /* Normal style */
+            color: red;
+          }
+        }
+  
+
+
+h1 {
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 600; /* Normal weight */
+  font-style: normal; /* Normal style */
+  color: green;
 }
+
+#nav {
+    font-family: "Rubik", sans-serif;
+    font-weight: 200; /* Normal weight */
+    font-style: normal; /* Normal style */
+    color: white;
+  }
+  
