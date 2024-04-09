@@ -18,7 +18,7 @@
         left: 40px;
         top: 150px;
         background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) for transparency */
-        backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
+        backdrop-filter: blur(0px); /* Optional: Adds a blur effect */
         border-radius: 10px; /* Optional: Adds rounded corners */
         padding: 20px; /* Optional: Add padding for content */
 }
