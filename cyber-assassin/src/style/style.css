@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
     position: absolute;
-    
+    top: 10px;
     left: 220px;
     padding: 20px;
     font-family: "Rubik", sans-serif;
@@ -38,4 +38,3 @@ h2 {
     font-style: normal; /* Normal style */
     color: white;
   }
-  
