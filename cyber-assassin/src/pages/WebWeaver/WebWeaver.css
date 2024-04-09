@@ -35,3 +35,16 @@
     background-size: contain;
     background-image: url('https://wallpapercave.com/wp/wp5709278.jpg');
   }
+
+#yt{
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+#footer {
+        color: aliceblue;
+        position: absolute;
+        left: 40px;
+        top: 700px;
+        
+}

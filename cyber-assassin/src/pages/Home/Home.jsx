@@ -4,8 +4,8 @@ const Home = () => {
     return(
         <div id="Home">
         <div id="Home2">
-<h2>List of various types of cyber attacks:</h2><br></br>
-<div id="img"></div>
+      
+<h2>List of various types of cyber attacks:</h2><br></br><div id="img"></div>
 1. Phishing attacks<br></br>
 2. Malware attacks (viruses, worms, trojans, ransomware, spyware, adware)<br></br>
 3. Denial of Service (DoS) attacks<br></br>
@@ -36,6 +36,8 @@ const Home = () => {
 28. Cryptojacking attacks<br></br>
 29. Supply chain attacks<br></br>
 30. Credential stuffing attacks<br></br>
+<br></br>
+<div id="yt"> <iframe width="700" height="400" src="https://www.youtube-nocookie.com/embed/GWztIi4m7_0?si=oeE0KJFa7k0pPil1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </div>
         </div>
 
