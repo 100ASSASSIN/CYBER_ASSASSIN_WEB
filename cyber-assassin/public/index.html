@@ -9,6 +9,7 @@
       </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="CONFIG.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -19,59 +20,67 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>CYBER-ASSASSIN</title>
   </head>
   <body>
-<canvas>
-            
-</canvas>
-<!-- partial -->
-  <script> 
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Hide overflow to prevent scrollbars */
+      }
+      canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw; /* Set canvas width to 100% of viewport width */
+        height: 100vh; /* Set canvas height to 100% of viewport height */
+        object-fit: cover; /* Cover the entire viewport while maintaining aspect ratio */
+      }
+    </style>
+    <canvas id="myCanvas"></canvas>
+    <script>
+      // Initialising the canvas
+      var canvas = document.getElementById('myCanvas'),
+          ctx = canvas.getContext('2d');
   
-  // Initialising the canvas
-var canvas = document.querySelector('canvas'),
-    ctx = canvas.getContext('2d');
-
-// Setting the width and height of the canvas
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-// Setting up the letters
-var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXY54434325235343664565467457767657ZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
-letters = letters.split('');
-
-// Setting up the columns
-var fontSize = 10,
-    columns = canvas.width / fontSize;
-
-// Setting up the drops
-var drops = [];
-for (var i = 0; i < columns; i++) {
-  drops[i] = 1;
-}
-
-// Setting up the draw function
-function draw() {
-  ctx.fillStyle = 'rgba(0, 0, 0, .1)';
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-  for (var i = 0; i < drops.length; i++) {
-    var text = letters[Math.floor(Math.random() * letters.length)];
-    ctx.fillStyle = '#0f0';
-    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-    drops[i]++;
-    if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
-      drops[i] = 0;
-    }
-  }
-}
-
-// Loop the animation
-setInterval(draw, 40);
+      // Setting the width and height of the canvas
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
   
-  </script>
-  <canvas>
-            
-  </canvas>
+      // Setting up the letters
+      var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+      letters = letters.split('');
+  
+      // Setting up the columns
+      var fontSize = 10,
+          columns = canvas.width / fontSize;
+  
+      // Setting up the drops
+      var drops = [];
+      for (var i = 0; i < columns; i++) {
+        drops[i] = 1;
+      }
+  
+      // Setting up the draw function
+      function draw() {
+        ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        for (var i = 0; i < drops.length; i++) {
+          var text = letters[Math.floor(Math.random() * letters.length)];
+          ctx.fillStyle = '#0f0';
+          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+          drops[i]++;
+          if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
+            drops[i] = 0;
+          }
+        }
+      }
+  
+      // Loop the animation
+      setInterval(draw, 40);
+    </script>
+ 
     <div id="root"></div>
     <!--
       This HTML file is a template.
