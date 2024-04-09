@@ -3,6 +3,7 @@ import '../WebWeaver/WebWeaver.css'
 const Home = () => {
     return(
         <div id="Home">
+        <div id="Home2"> <h1>sad</h1>
         <p>
         # CYBER_ASSASSIN_WEB
 # CYBER_ASSASSIN_TOOLS_CODE_DOCX 
@@ -177,10 +178,9 @@ It's important for organizations to regularly update and configure firewalls pro
 
 These are just some of the common vulnerabilities found in websites. It's important for website owners and developers to regularly assess and mitigate these vulnerabilities to protect against potential exploitation by malicious actors.**
 
-            </p>    
-            
-            
-            
+            </p>
+
+        </div>
         </div>
 
     );

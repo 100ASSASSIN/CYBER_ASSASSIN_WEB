@@ -12,10 +12,21 @@
     position: absolute;
     color: green;
 }
+
+    #Home2 {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) for transparency */
+        backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
+        border-radius: 10px; /* Optional: Adds rounded corners */
+        padding: 20px; /* Optional: Add padding for content */
+      }
+      
+    
+
 p{
     position: absolute;
     top: 60px;
     left: 30px;
     width: 1000px;
-    color: red;
+    color: green;
 }
