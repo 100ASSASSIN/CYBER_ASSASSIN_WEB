@@ -9,7 +9,7 @@ class App extends Component {
      <Home />
      <Footer />
       <h1>CYBER-ASSASSIN</h1>
-
+      <h2>Panel</h2>
      </div>
     );
   }

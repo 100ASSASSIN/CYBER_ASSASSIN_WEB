@@ -3,8 +3,11 @@ import '../WebWeaver/WebWeaver.css'
 const Footer = () => {
     return (
         <div id="footer">
-            test
+            <div className="all">
+                Cyber-assassin
+            </div>
         </div>
+        
     );
 }
 export default Footer;
