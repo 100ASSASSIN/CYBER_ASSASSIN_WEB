@@ -4,7 +4,7 @@ const Home = () => {
     return(
         <div id="Home">
         <div id="Home2">
-<h3>List of various types of cyber attacks:<br></br></h3>
+<h2>List of various types of cyber attacks:</h2><br></br>
 1. Phishing attacks<br></br>
 2. Malware attacks (viruses, worms, trojans, ransomware, spyware, adware)<br></br>
 3. Denial of Service (DoS) attacks<br></br>
