@@ -6,7 +6,6 @@ class App extends Component {
     return (
     <div>
       <h1>CYBER-ASSASSIN</h1>
-     
      </div>
     );
   }
