@@ -25,11 +25,13 @@
 }
 
 #img{
-    border-radius: 3px;
+    border-radius: 5px;
     position: absolute;
     left: 600px;
     width: 200px;
     height: 200px;
     background-size: cover;
+    width: 300px;
+    background-size: contain;
     background-image: url('https://wallpapercave.com/wp/wp5709278.jpg');
   }
