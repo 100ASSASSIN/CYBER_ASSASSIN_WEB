@@ -13,7 +13,7 @@
 }
 #Home2 {
     color: azure;
-        width: 900px;
+        width: 600px;
         height: auto;
         position: absolute;
         left: 40px;
@@ -22,4 +22,14 @@
         backdrop-filter: blur(0px); /* Optional: Adds a blur effect */
         border-radius: 10px; /* Optional: Adds rounded corners */
         padding: 20px; /* Optional: Add padding for content */
+}
+
+#pop{
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-image: url('https://w.wallhaven.cc/full/73/wallhaven-737j9y.jpg');
+
 }
