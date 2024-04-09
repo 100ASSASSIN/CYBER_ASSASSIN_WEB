@@ -31,6 +31,18 @@ h1 {
     font-style: normal; /* Normal style */
     color: green;
   }
+#com{
+  
+    position: absolute;
+    bottom: 85%;
+    left: 600px;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600; /* Normal weight */
+    font-style: normal; /* Normal style */
+    color: green;
+  
+}
 #nav {
     font-family: "Rubik", sans-serif;
     font-weight: 200; /* Normal weight */

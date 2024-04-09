@@ -10,6 +10,7 @@ class App extends Component {
      <Footer />
       <h1>CYBER-ASSASSIN</h1>
       <h2>Panel</h2>
+      <h2 id='com'>our Companey</h2>
      </div>
     );
   }
