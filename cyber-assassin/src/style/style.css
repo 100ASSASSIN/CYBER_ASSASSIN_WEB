@@ -4,12 +4,7 @@
 /* Apply styles to the h1 elements */
 
 @media only screen and (max-width: 600px) {
-        #nav {
-            font-family: "Rubik", sans-serif;
-            font-weight: 200; /* Normal weight */
-            font-style: normal; /* Normal style */
-            color: red;
-          }
+       
         }
 h1 {
     position: absolute;
@@ -53,4 +48,10 @@ h1 {
   p{
     position: absolute;
     color: green;
+  }
+  #nav {
+    font-family: "Rubik", sans-serif;
+    font-weight: 200; /* Normal weight */
+    font-style: normal; /* Normal style */
+    color: red;
   }
