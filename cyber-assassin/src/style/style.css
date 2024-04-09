@@ -55,3 +55,7 @@ h1 {
     font-style: normal; /* Normal style */
     color: red;
   }
+  button {
+    position: absolute;
+   
+  }
