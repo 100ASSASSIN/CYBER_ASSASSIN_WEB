@@ -11,13 +11,14 @@
             color: red;
           }
         }
-h1 {
+ {
+  position: absolute;
   font-family: "Rubik", sans-serif;
   font-weight: 600; /* Normal weight */
   font-style: normal; /* Normal style */
   color: white;
 }
-h2 {
+h1 {
     position: absolute;
     top: 10px;
     left: 220px;
@@ -32,4 +33,9 @@ h2 {
     font-weight: 200; /* Normal weight */
     font-style: normal; /* Normal style */
     color: white;
+  }
+
+  p{
+    position: absolute;
+    color: green;
   }
