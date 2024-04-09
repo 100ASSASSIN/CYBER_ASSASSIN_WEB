@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <button id='b1' onClick={() => this.navigate('Page')}>Navigate to Page</button>
+        <button  onClick={() => this.navigate('Page')}>Navigate to Page</button>
         {this.renderPage()}
         <Footer />
         <Nav />
