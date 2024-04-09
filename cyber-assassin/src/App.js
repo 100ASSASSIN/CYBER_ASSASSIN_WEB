@@ -7,6 +7,7 @@ class App extends Component {
     <div>
      <Home />
       <h1>CYBER-ASSASSIN</h1>
+
      </div>
     );
   }
